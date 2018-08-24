@@ -9,32 +9,36 @@ import org.parabot.environment.scripts.framework.Strategy;
 import org.rev317.min.api.methods.Inventory;
 import org.rev317.min.api.methods.Players;
 import org.rev317.min.api.methods.SceneObjects;
+import org.rev317.min.api.methods.Skill;
 import org.rev317.min.api.wrappers.SceneObject;
 
-import static org.parabot.chino.Theif.data.Stall.CRAFTING;
-import static org.parabot.chino.Theif.main.Core.wcLevel;
+
+
+import static org.parabot.chino.Theif.data.Stall.bestStall;
+
+
 
 public class Steal implements Strategy {
+    private static int tLevel = Skill.getCurrentLevel(int THEIVING);
+    private SceneObject[] BestStall = SceneObjects.getNearest(bestStall(tLevel));
     @Override
     public boolean activate() {
-        return Players.getMyPlayer().getAnimation() == -1 && !Inventory.isFull();
+        return SceneObjects.getNearest().length > 0
+                && Players.getMyPlayer().getAnimation() == -1 && !Inventory.isFull();
 
     }
 
     @Override
     public void execute() {
-        SceneObject[] objects = SceneObjects.getNearest(new Filter<SceneObject>() {
-            @Override
-            public boolean accept(SceneObject sceneObject) {
-                return sceneObject.getId() == Stall.bestStall();
-            }
-        });
+        if (BestStall !=null && BestStall.length > 0){
+            BestStall[0].interact(SceneObjects.Option.STEAL_FROM);
+        }
             Time.sleep(new SleepCondition() {
                 @Override
                 public boolean isValid() {
                     return Players.getMyPlayer().getAnimation() == -1;
                 }
-            }, 2600);
+            }, 600);
         }
     }
 }
