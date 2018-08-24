@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Parabot Scripts.iml" filepath="$PROJECT_DIR$/Parabot Scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Woodcutter/Theif.iml" filepath="$PROJECT_DIR$/Woodcutter/Theif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Woodcutter/Woodcutter.iml" filepath="$PROJECT_DIR$/Woodcutter/Woodcutter.iml" />
+    </modules>
+  </component>
+</project>

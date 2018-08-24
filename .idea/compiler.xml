@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Theif" />
+        <module name="Woodcutter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Parabot Scripts" target="1.5" />
+      <module name="Prayer" target="1.7" />
+      <module name="StallMolester" target="1.5" />
+      <module name="Stealer" target="1.5" />
+      <module name="Theif" target="1.7" />
+      <module name="Woodcutter" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
