@@ -19,8 +19,8 @@ import static org.parabot.chino.Theif.data.Stall.bestStall;
 
 
 public class Steal implements Strategy {
-    private static int tLevel = Skill.getCurrentLevel(int THEIVING);
-    private SceneObject[] BestStall = SceneObjects.getNearest(bestStall(tLevel));
+   // private static int tLevel = Skill.getCurrentLevel(int THEIVING);
+    private SceneObject[] BestStall = SceneObjects.getNearest(bestStall(Skill.getCurrentLevel(int THEIVING)));
     @Override
     public boolean activate() {
         return SceneObjects.getNearest().length > 0
