@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4829ad0-d305-4a1b-b20e-2598cdcfcf72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,14 +23,14 @@
     <session id="-946979619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,7 +38,7 @@
           <entry key="Learning" value="2" />
           <entry key="class" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="52" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
@@ -46,7 +46,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="52" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="12" />
         </counts>
@@ -54,14 +54,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="3411" />
+          <entry key="java" value="4276" />
+          <entry key="txt" value="78" />
           <entry key="xml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3411" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JAVA" value="4276" />
+          <entry key="PLAIN_TEXT" value="93" />
           <entry key="XML" value="43" />
         </counts>
       </usages-collector>
@@ -71,82 +72,121 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8259878">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#905#1099#0" expanded="true" />
-                    <element signature="e#1098#1099#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#817#818#0" expanded="true" />
-                    <element signature="e#847#848#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/strategies/Banking.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="25" column="50" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/strategies/Chop.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ICore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/Methods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ui/UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/StallSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/HandleStealing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/PaintUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/ScriptTimer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,6 +195,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>emmastone.woodcutter</find>
+      <find>Tree</find>
+      <find>tree</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,9 +224,18 @@
         <option value="$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/main/Core.java" />
         <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Main.java" />
         <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Constants.java" />
-        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java" />
-        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java" />
         <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/StallSelector.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ui/UI.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/ScriptTimer.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/Methods.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ICore.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Settings.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/Core.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/PaintUtils.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java" />
+        <option value="$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/HandleStealing.java" />
       </list>
     </option>
   </component>
@@ -309,7 +365,7 @@
               <item name="parabot" type="462c0819:PsiDirectoryNode" />
               <item name="chino" type="462c0819:PsiDirectoryNode" />
               <item name="Theif" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="strategies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Parabot Scripts" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +378,20 @@
               <item name="parabot" type="462c0819:PsiDirectoryNode" />
               <item name="chino" type="462c0819:PsiDirectoryNode" />
               <item name="Theif" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Parabot Scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Parabot Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Theif" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="parabot" type="462c0819:PsiDirectoryNode" />
+              <item name="chino" type="462c0819:PsiDirectoryNode" />
+              <item name="Theif" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Parabot Scripts" type="b2602c69:ProjectViewProjectNode" />
@@ -407,12 +476,27 @@
       <workItem from="1534450923645" duration="19006000" />
       <workItem from="1534624618266" duration="34011000" />
       <workItem from="1534978880071" duration="2109000" />
-      <workItem from="1535112393563" duration="8733000" />
+      <workItem from="1535112393563" duration="33294000" />
     </task>
+    <task id="LOCAL-00001" summary="progression on Steal strategy&#10;issues with tLevel">
+      <created>1535121849248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535121849248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="progression on Steal strategy&#10;issues with tLevel">
+      <created>1535129677581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535129677581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76829000" />
+    <option name="totallyTimeSpent" value="101390000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -425,26 +509,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23480242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23860182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" weight="0.26595744" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848023" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544072" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29016393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.29836065" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007599" side_tool="true" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151974" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48784193" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -454,24 +537,24 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16945289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23480242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Learn" order="4" weight="0.26595744" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848023" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544072" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29016393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.29836065" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48784193" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,6 +569,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="progression on Steal strategy&#10;issues with tLevel" />
+    <option name="LAST_COMMIT_MESSAGE" value="progression on Steal strategy&#10;issues with tLevel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/parabot/client/2.6.4/client-2.6.4.jar!/org/parabot/environment/scripts/framework/SleepCondition.class">
@@ -555,31 +642,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/ICore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/ICore.java" />
     <entry file="file://$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/main/Core.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding>
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,6 +657,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/strategies/Chop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java" />
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java" />
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ICore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -597,31 +700,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Woodcutter/src/main/java/org/parabot/chino/Woodcutter/strategies/Chop.java">
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/main/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/Steal.java">
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/ui/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="578">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#905#1099#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/StallSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/data/Stall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/PaintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/utils/ScriptTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theif/src/main/java/org/parabot/chino/Theif/strategies/HandleStealing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,41 +1,41 @@
 package org.parabot.chino.Theif.data;
 
 public enum Stall {
-    CRAFTING(1153604154, 1),
-    FOOD(1153620537, 30),
-    GENERAL(1153636920, 55),
-    MAGIC(1153653303, 85),
-    SCIMITAR(1153669686, 95);
+    MAN(684, 1),
+    BAKER(1265933339, 5),
+    FUR(1265966103, 35),
+    SILVER(1265998487, 50),
+    GEM(1265949339, 75);
 
-    private final int stallId;
-    private final int level;
+        private final int id;
+        private final int level;
 
-    Stall(int stallId, int level) {
-        this.stallId = stallId;
-        this.level = level;
-    }
-
-    public static Stall bestStall(int tLevel) {
-        Stall stall = null;
-        for (Stall a : Stall.values()) {
-            if (stall == null && a.level <= tLevel) {
-                stall = a;
-            } else if (stall != null && a.level <= tLevel && stall.level < a.level) {
-                stall = a;
-            }
+        Stall(int id, int level) {
+            this.id = id;
+            this.level = level;
         }
 
-        return stall;
+        public static Stall getFittingForLevel(int yourLevel) {
+            Stall bestFittingStall = null;
+            for (Stall stall : Stall.values()) {
+                if (bestFittingStall == null && stall.level <= yourLevel) {
+                    bestFittingStall = stall;
+                } else if (bestFittingStall != null && stall.level <= yourLevel && bestFittingStall.level < stall.level) {
+                    bestFittingStall = stall;
+                }
+            }
+
+            return bestFittingStall;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        @Override
+        public String toString() {
+            return super.toString().substring(0, 1).toUpperCase()
+                    + super.toString().toLowerCase().substring(1);
+        }
     }
 
-    public int getStallId() {
-        return stallId;
-    }
-
-
-    @Override
-    public String toString() {
-        return super.toString().substring(0, 1).toUpperCase()
-                + super.toString().toLowerCase().substring(1);
-    }
-}
