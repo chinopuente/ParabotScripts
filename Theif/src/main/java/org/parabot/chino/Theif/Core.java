@@ -51,6 +51,7 @@ public class Core extends Script implements ICore, Paintable, MessageListener {
 
         this.settings.getStrategies().addAll(
                 Arrays.asList(
+                        new ManSteal(this),
                         new StallSelector(this),
                         //new HandleLogin(),
                         new HandleStealing(this)));

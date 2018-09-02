@@ -1,7 +1,6 @@
 package org.parabot.chino.Theif.data;
 
 public enum Stall {
-    MAN(684, 1),
     BAKER(1265933339, 5),
     FUR(1265966103, 35),
     SILVER(1265998487, 50),
